@@ -1,7 +1,5 @@
 name: Auto Update
 on:
-  # schedule:
-  #   - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -25,10 +23,3 @@ jobs:
           git add merged_config.yaml cache.yaml
           git commit -m 'Auto update config' || echo "No changes to commit."
           git push
-
-      # - name: Purge jsDelivr Cache
-      #   if: success()
-      #   run: |
-      #     echo "Purging jsDelivr cache for merged_config.yaml..."
-      #     curl -s https://purge.jsdelivr.net/gh/lkchx123/get_nodes@main/merged_config.yaml
-      #     echo "Purge request sent."
