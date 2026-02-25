@@ -683,13 +683,13 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
       public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
       short-id: 845532fa
 https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
-  clash_link: https://ren8gJ.tosslk.xyz/b54c8e3d51e0f431d338557be4d88d21
+  clash_link: https://VdiNve.tosslk.xyz/f6e1dca6e8ab32ac7be2e0643f1a38b8
   proxies:
   - name: 🇭🇰香港 101 | 1x HK
     type: vless
     server: freea.glyphara.com
     port: 30101
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -703,7 +703,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30102
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -717,7 +717,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30103
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -731,7 +731,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30201
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -745,7 +745,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30202
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -759,7 +759,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30301
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -773,7 +773,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30303
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -787,7 +787,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30401
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -801,7 +801,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30402
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -815,7 +815,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30403
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -829,7 +829,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30701
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
@@ -843,7 +843,7 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30703
-    uuid: aded7300-29a8-428f-91c5-79844adc8c6c
+    uuid: 71f4e371-afd4-4ae6-8c68-2d3a17a13878
     udp: true
     tls: true
     skip-cert-verify: true
