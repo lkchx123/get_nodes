@@ -512,13 +512,13 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
       public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
       short-id: 845532fa
 https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
-  clash_link: https://w7zO7H.absslk.xyz/17913c46681ef9a53b174cfe6e5051f0
+  clash_link: https://LSAnfy.absslk.xyz/03470f19d5e61488585a2edb6805c201
   proxies:
   - name: 🇭🇰香港 101 | 1x HK
     type: vless
     server: freea.glyphara.com
     port: 30101
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -532,7 +532,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30102
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -546,7 +546,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30103
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -560,7 +560,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30201
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -574,7 +574,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30202
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -588,7 +588,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30301
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -602,7 +602,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30303
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -616,7 +616,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30401
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -630,7 +630,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30402
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -644,7 +644,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30403
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -658,7 +658,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30701
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
@@ -672,7 +672,7 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 30703
-    uuid: cac5f720-3e8e-4e08-9042-091aaf79a2a9
+    uuid: 19dcbfa4-f44b-4f02-8a4e-2152bf0d57ce
     udp: true
     tls: true
     skip-cert-verify: true
