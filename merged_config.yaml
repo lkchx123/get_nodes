@@ -1,4 +1,4 @@
-# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟬:𝟱𝟴:𝟮𝟲
+# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟭:𝟭𝟯:𝟯𝟴
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟬:𝟱𝟴:𝟮𝟲
+- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟭:𝟭𝟯:𝟯𝟴
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -1162,7 +1162,7 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟬:𝟱𝟴:𝟮𝟲
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟭:𝟭𝟯:𝟯𝟴
   - 🇭🇰香港 101 | 1x HK | abshare
   - 🇭🇰香港 102 | 1x HK | abshare
   - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
@@ -1249,7 +1249,7 @@ proxy-groups:
 - name: 漏网之鱼
   type: select
   proxies:
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟬:𝟱𝟴:𝟮𝟲
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟬𝟯 𝟬𝟭:𝟭𝟯:𝟯𝟴
   - 代理选择
   - DIRECT
 rule-providers:
