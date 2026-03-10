@@ -1,4 +1,4 @@
-# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟯:𝟭𝟳
+# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟳:𝟱𝟮
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟯:𝟭𝟳
+- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟳:𝟱𝟮
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -1163,7 +1163,7 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟯:𝟭𝟳
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟳:𝟱𝟮
   - 🇭🇰香港 101 | 1x HK | abshare
   - 🇭🇰香港 102 | 1x HK | abshare
   - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
@@ -1249,13 +1249,115 @@ proxy-groups:
   proxies: *id001
 - name: 地区选择
   type: select
-  proxies: null
+  proxies:
+  - 🇭🇰香港
+  - 🇹🇼台湾
+  - 🇯🇵日本
+  - 🇸🇬新加坡
+  - 🇺🇸美国
 - name: 漏网之鱼
   type: select
   proxies:
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟯:𝟭𝟳
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟰:𝟭𝟳:𝟱𝟮
   - 代理选择
   - DIRECT
+- name: 🇭🇰香港
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 30
+  proxies:
+  - 🇭🇰香港 101 | 1x HK | abshare
+  - 🇭🇰香港 102 | 1x HK | abshare
+  - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
+  - 🇭🇰香港 101 | 1x HK | mkshare3
+  - 🇭🇰香港 102 | 1x HK | mkshare3
+  - 🇭🇰香港 103 | 家宽 | 1x HK | mkshare3
+  - 🇭🇰香港 101 | 1x HK | toshare5
+  - 🇭🇰香港 102 | 1x HK | toshare5
+  - 🇭🇰香港 103 | 家宽 | 1x HK | toshare5
+  - 🇭🇰香港 101 | 1x HK | abshare3
+  - 🇭🇰香港 102 | 1x HK | abshare3
+  - 🇭🇰香港 103 | 家宽 | 1x HK | abshare3
+  - 🇭🇰香港 101 | 1x HK | tolinkshare2
+  - 🇭🇰香港 102 | 1x HK | tolinkshare2
+  - 🇭🇰香港 103 | 家宽 | 1x HK | tolinkshare2
+  - 🇭🇰香港 101 | 1x HK | mksshare
+  - 🇭🇰香港 102 | 1x HK | mksshare
+  - 🇭🇰香港 103 | 家宽 | 1x HK | mksshare
+- name: 🇹🇼台湾
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 30
+  proxies:
+  - 🇹🇼台湾 101 | 1x TW | abshare
+  - 🇹🇼台湾 102 | 1x TW | abshare
+  - 🇹🇼台湾 101 | 1x TW | mkshare3
+  - 🇹🇼台湾 102 | 1x TW | mkshare3
+  - 🇹🇼台湾 101 | 1x TW | toshare5
+  - 🇹🇼台湾 102 | 1x TW | toshare5
+  - 🇹🇼台湾 101 | 1x TW | abshare3
+  - 🇹🇼台湾 102 | 1x TW | abshare3
+  - 🇹🇼台湾 101 | 1x TW | tolinkshare2
+  - 🇹🇼台湾 102 | 1x TW | tolinkshare2
+  - 🇹🇼台湾 101 | 1x TW | mksshare
+  - 🇹🇼台湾 102 | 1x TW | mksshare
+- name: 🇯🇵日本
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 30
+  proxies:
+  - 🇯🇵日本 101 | 1x JP | abshare
+  - 🇯🇵日本 103 | 1x JP | abshare
+  - 🇯🇵日本 101 | 1x JP | mkshare3
+  - 🇯🇵日本 103 | 1x JP | mkshare3
+  - 🇯🇵日本 101 | 1x JP | toshare5
+  - 🇯🇵日本 103 | 1x JP | toshare5
+  - 🇯🇵日本 101 | 1x JP | abshare3
+  - 🇯🇵日本 103 | 1x JP | abshare3
+  - 🇯🇵日本 101 | 1x JP | tolinkshare2
+  - 🇯🇵日本 103 | 1x JP | tolinkshare2
+  - 🇯🇵日本 101 | 1x JP | mksshare
+  - 🇯🇵日本 103 | 1x JP | mksshare
+- name: 🇸🇬新加坡
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 30
+  proxies:
+  - 🇸🇬新加坡 101 | 1x SG | abshare
+  - 🇸🇬新加坡 102 | 1x SG | abshare
+  - 🇸🇬新加坡 103 | 1x SG | abshare
+  - 🇸🇬新加坡 101 | 1x SG | mkshare3
+  - 🇸🇬新加坡 102 | 1x SG | mkshare3
+  - 🇸🇬新加坡 103 | 1x SG | mkshare3
+  - 🇸🇬新加坡 101 | 1x SG | toshare5
+  - 🇸🇬新加坡 102 | 1x SG | toshare5
+  - 🇸🇬新加坡 103 | 1x SG | toshare5
+  - 🇸🇬新加坡 101 | 1x SG | abshare3
+  - 🇸🇬新加坡 102 | 1x SG | abshare3
+  - 🇸🇬新加坡 103 | 1x SG | abshare3
+  - 🇸🇬新加坡 101 | 1x SG | tolinkshare2
+  - 🇸🇬新加坡 102 | 1x SG | tolinkshare2
+  - 🇸🇬新加坡 103 | 1x SG | tolinkshare2
+  - 🇸🇬新加坡 101 | 1x SG | mksshare
+  - 🇸🇬新加坡 102 | 1x SG | mksshare
+  - 🇸🇬新加坡 103 | 1x SG | mksshare
+- name: 🇺🇸美国
+  type: fallback
+  url: https://cp.cloudflare.com/generate_204
+  interval: 30
+  proxies:
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | abshare
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | abshare
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | mkshare3
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | mkshare3
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | toshare5
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | toshare5
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | abshare3
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | abshare3
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | tolinkshare2
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | tolinkshare2
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | mksshare
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | mksshare
 rule-providers:
   reject:
     type: http
