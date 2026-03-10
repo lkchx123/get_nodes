@@ -169,6 +169,11 @@ proxy-groups:
 - name: 地区选择
   type: select
   proxies:
+- name: 广告屏蔽
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
 - name: 漏网之鱼
   type: select
   proxies:
@@ -176,6 +181,13 @@ proxy-groups:
   - 代理选择
   - DIRECT
 rule-providers:
+  adblock:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    path: ./ruleset/adblock_reject.yaml
+    interval: 120
   reject:
     type: http
     behavior: domain
@@ -255,6 +267,7 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400
 rules:
+- RULE-SET,adblock,广告屏蔽
 - RULE-SET,reject,REJECT
 - RULE-SET,apple,DIRECT
 - RULE-SET,applications,DIRECT
@@ -272,6 +285,7 @@ rules:
 - GEOIP,CN,DIRECT
 
 - MATCH,漏网之鱼
+
 
 
 
