@@ -1,4 +1,4 @@
-# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟯:𝟭𝟰
+# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟰:𝟬𝟬
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟯:𝟭𝟰
+- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟰:𝟬𝟬
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -1163,7 +1163,7 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟯:𝟭𝟰
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟰:𝟬𝟬
   - 🇭🇰香港 101 | 1x HK | abshare
   - 🇭🇰香港 102 | 1x HK | abshare
   - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
@@ -1255,10 +1255,15 @@ proxy-groups:
   - 🇯🇵日本
   - 🇸🇬新加坡
   - 🇺🇸美国
+- name: 广告屏蔽
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
 - name: 漏网之鱼
   type: select
   proxies:
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟯:𝟭𝟰
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟯-𝟭𝟬 𝟭𝟱:𝟭𝟰:𝟬𝟬
   - 代理选择
   - DIRECT
 - name: 🇭🇰香港
@@ -1359,6 +1364,13 @@ proxy-groups:
   - 🇺🇸美国 101 ChatGPT专用 | 1x US | mksshare
   - 🇺🇸美国 103 ChatGPT专用 | 1x US | mksshare
 rule-providers:
+  adblock:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    path: ./ruleset/adblock_reject.yaml
+    interval: 120
   reject:
     type: http
     behavior: domain
@@ -1438,6 +1450,7 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400
 rules:
+- RULE-SET,adblock,广告屏蔽
 - RULE-SET,reject,REJECT
 - RULE-SET,apple,DIRECT
 - RULE-SET,applications,DIRECT
