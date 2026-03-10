@@ -151,10 +151,10 @@ proxy-groups:
   - 故障转移
   - 地区选择
   - DIRECT
+  - 测试节点
 - name: 手动选择
   type: select
   proxies: &id001
-  - 测试节点
 - name: 负载均衡
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
@@ -177,7 +177,6 @@ proxy-groups:
 - name: 漏网之鱼
   type: select
   proxies:
-  - 测试节点
   - 代理选择
   - DIRECT
 rule-providers:
@@ -285,6 +284,7 @@ rules:
 - GEOIP,CN,DIRECT
 
 - MATCH,漏网之鱼
+
 
 
 
