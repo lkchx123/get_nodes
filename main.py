@@ -201,15 +201,39 @@ def merge_configs():
     original_proxies = base_config['proxies']
     base_config['proxies'] = original_proxies + all_new_proxies
 
-    # 6. 直接查找'手动选择'代理组并追加新节点名称
-    if 'proxy-groups' in base_config and base_config['proxy-groups']:
-        anchor_group_name = "手动选择"
+    # 6. 处理原有的“手动选择”组
+    if 'proxy-groups' in base_config:
         for group in base_config['proxy-groups']:
-            if group.get('name') == anchor_group_name:
+            if group.get('name') == "手动选择":
                 group['proxies'].extend(new_proxy_names)
                 break
-    
-    # 7. 写入最终的合并配置
+
+    # 7. 地区分组
+    regions = {}
+    for p in all_new_proxies:
+        match = re.search(r'^[^\s]+', p['name'])
+        region_name = match.group() if match else "其他地区"
+        if region_name not in regions:
+            regions[region_name] = []
+        regions[region_name].append(p['name'])
+
+    region_group_names = []
+    for r_name, p_list in regions.items():
+        base_config['proxy-groups'].append({
+            'name': r_name,
+            'type': 'fallback',
+            'url': 'https://cp.cloudflare.com/generate_204',
+            'interval': 30,
+            'proxies': p_list
+        })
+        region_group_names.append(r_name)
+
+    for group in base_config['proxy-groups']:
+        if group.get('name') == "地区选择":
+            group['proxies'] = region_group_names
+            break
+
+    # 8. 写入最终的合并配置
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     timestamp = timestamp.translate(str.maketrans('0123456789', '𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵'))
     yaml_content = yaml.dump(base_config, sort_keys=False, allow_unicode=True)
@@ -225,6 +249,7 @@ def merge_configs():
 
 if __name__ == "__main__":
     merge_configs()
+
 
 
 
