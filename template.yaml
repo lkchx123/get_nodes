@@ -155,6 +155,7 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies: &id001
+  - 测试节点
 - name: 负载均衡
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
@@ -284,6 +285,7 @@ rules:
 - GEOIP,CN,DIRECT
 
 - MATCH,漏网之鱼
+
 
 
 
