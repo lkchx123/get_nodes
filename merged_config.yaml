@@ -1,4 +1,4 @@
-# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟰𝟯:𝟭𝟱
+# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟱𝟴:𝟮𝟬
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟰𝟯:𝟭𝟱
+- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟱𝟴:𝟮𝟬
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -315,7 +315,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30101
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -329,7 +329,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30102
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -343,7 +343,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30103
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -357,7 +357,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30201
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -371,7 +371,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30202
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -385,7 +385,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30301
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -399,7 +399,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30303
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -413,7 +413,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30401
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -427,7 +427,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30402
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -441,7 +441,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30403
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -455,7 +455,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30701
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -469,7 +469,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30703
-  uuid: ac98c456-1483-4249-9cab-be987509dda8
+  uuid: 6f16f626-0e0b-4218-ab7b-935295fb4fb7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1160,11 +1160,11 @@ proxy-groups:
   - 故障转移
   - 地区选择
   - DIRECT
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟰𝟯:𝟭𝟱
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟱𝟴:𝟮𝟬
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟰𝟯:𝟭𝟱
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟳:𝟱𝟴:𝟮𝟬
   - 🇭🇰香港 101 | 1x HK | abshare
   - 🇭🇰香港 102 | 1x HK | abshare
   - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
