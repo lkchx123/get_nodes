@@ -1,4 +1,4 @@
-# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟰𝟯:𝟭𝟱
+# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟱𝟴:𝟭𝟴
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟰𝟯:𝟭𝟱
+- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟱𝟴:𝟭𝟴
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -147,7 +147,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30101
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -161,7 +161,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30102
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -175,7 +175,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30103
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -189,7 +189,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30201
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -203,7 +203,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30202
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -217,7 +217,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30301
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -231,7 +231,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30303
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -245,7 +245,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30401
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -259,7 +259,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30402
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -273,7 +273,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30403
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -287,7 +287,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30701
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -301,7 +301,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30703
-  uuid: b428447c-620d-46e6-bf63-b3cd17390558
+  uuid: bc7701ae-bcfb-466c-9fc1-2c1ae228bee4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -315,7 +315,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30101
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -329,7 +329,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30102
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -343,7 +343,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30103
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -357,7 +357,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30201
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -371,7 +371,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30202
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -385,7 +385,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30301
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -399,7 +399,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30303
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -413,7 +413,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30401
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -427,7 +427,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30402
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -441,7 +441,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30403
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -455,7 +455,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30701
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -469,7 +469,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30703
-  uuid: 63857eb2-b137-4684-9ce0-0cd059678513
+  uuid: ac98c456-1483-4249-9cab-be987509dda8
   udp: true
   tls: true
   skip-cert-verify: true
@@ -819,7 +819,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30101
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -833,7 +833,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30102
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -847,7 +847,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30103
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -861,7 +861,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30201
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -875,7 +875,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30202
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -889,7 +889,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30301
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -903,7 +903,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30303
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -917,7 +917,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30401
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -931,7 +931,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30402
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -945,7 +945,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30403
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -959,7 +959,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30701
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -973,175 +973,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30703
-  uuid: be2b7566-2abf-4e64-949f-43b6df02ecc7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: mensura.cdn-apple.com
-  reality-opts:
-    public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
-    short-id: 845532fa
-- name: 🇭🇰香港 101 | 1x HK | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30101
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: itunes.apple.com
-  reality-opts:
-    public-key: egnl0iFXY3IZYfvHwoNd72sCaULkoFRoL78wQiFwcDU
-    short-id: 176d4445
-- name: 🇭🇰香港 102 | 1x HK | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30102
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: www.amd.com
-  reality-opts:
-    public-key: W4NAOZLWDoh0h_firJoGZkvCIThYtXfAhnOPiW1OCRQ
-    short-id: 11685da6
-- name: 🇭🇰香港 103 | 家宽 | 1x HK | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30103
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: learn.microsoft.com
-  reality-opts:
-    public-key: 8M0-R5F627Hnwb-hiS0VMSm-q3NPmriztJSU9FfvTB4
-    short-id: 435e2af5
-- name: 🇹🇼台湾 101 | 1x TW | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30201
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: lol.secure.dyn.riotcdn.net
-  reality-opts:
-    public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ
-    short-id: c1e12817
-- name: 🇹🇼台湾 102 | 1x TW | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30202
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: www.samsung.com
-  reality-opts:
-    public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U
-    short-id: 10fa499e
-- name: 🇯🇵日本 101 | 1x JP | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30301
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: lol.secure.dyn.riotcdn.net
-  reality-opts:
-    public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM
-    short-id: 950cee8a
-- name: 🇯🇵日本 103 | 1x JP | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30303
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: mensura.cdn-apple.com
-  reality-opts:
-    public-key: RuNAMARjcI4VNAkqWazbFm4sa3Kc-uViiruuByx2TiM
-    short-id: 4d77021d
-- name: 🇸🇬新加坡 101 | 1x SG | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30401
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: learn.microsoft.com
-  reality-opts:
-    public-key: ZeXA8rcM3TV466jK83J157gY7U2JTI9KP9nmn_Nbawk
-    short-id: 105a652c
-- name: 🇸🇬新加坡 102 | 1x SG | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30402
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: itunes.apple.com
-  reality-opts:
-    public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew
-    short-id: f5f6e6f4
-- name: 🇸🇬新加坡 103 | 1x SG | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30403
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: www.samsung.com
-  reality-opts:
-    public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo
-    short-id: 1b3f5a2e
-- name: 🇺🇸美国 101 ChatGPT专用 | 1x US | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30701
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  servername: www.amd.com
-  reality-opts:
-    public-key: cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY
-    short-id: e62db878
-- name: 🇺🇸美国 103 ChatGPT专用 | 1x US | mksshare
-  type: vless
-  server: freea.glyphara.com
-  port: 30703
-  uuid: 7b1d3ca8-9232-4dde-a3a6-25be274d0af1
+  uuid: d0f9ed8a-f624-4812-9aa8-9952d0d3b2e6
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1160,11 +992,11 @@ proxy-groups:
   - 故障转移
   - 地区选择
   - DIRECT
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟰𝟯:𝟭𝟱
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟱𝟴:𝟭𝟴
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟰𝟯:𝟭𝟱
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟭 𝟭𝟱:𝟱𝟴:𝟭𝟴
   - 🇭🇰香港 101 | 1x HK | abshare
   - 🇭🇰香港 102 | 1x HK | abshare
   - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
@@ -1225,18 +1057,6 @@ proxy-groups:
   - 🇸🇬新加坡 103 | 1x SG | tolinkshare2
   - 🇺🇸美国 101 ChatGPT专用 | 1x US | tolinkshare2
   - 🇺🇸美国 103 ChatGPT专用 | 1x US | tolinkshare2
-  - 🇭🇰香港 101 | 1x HK | mksshare
-  - 🇭🇰香港 102 | 1x HK | mksshare
-  - 🇭🇰香港 103 | 家宽 | 1x HK | mksshare
-  - 🇹🇼台湾 101 | 1x TW | mksshare
-  - 🇹🇼台湾 102 | 1x TW | mksshare
-  - 🇯🇵日本 101 | 1x JP | mksshare
-  - 🇯🇵日本 103 | 1x JP | mksshare
-  - 🇸🇬新加坡 101 | 1x SG | mksshare
-  - 🇸🇬新加坡 102 | 1x SG | mksshare
-  - 🇸🇬新加坡 103 | 1x SG | mksshare
-  - 🇺🇸美国 101 ChatGPT专用 | 1x US | mksshare
-  - 🇺🇸美国 103 ChatGPT专用 | 1x US | mksshare
 - name: 负载均衡
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
@@ -1286,9 +1106,6 @@ proxy-groups:
   - 🇭🇰香港 101 | 1x HK | tolinkshare2
   - 🇭🇰香港 102 | 1x HK | tolinkshare2
   - 🇭🇰香港 103 | 家宽 | 1x HK | tolinkshare2
-  - 🇭🇰香港 101 | 1x HK | mksshare
-  - 🇭🇰香港 102 | 1x HK | mksshare
-  - 🇭🇰香港 103 | 家宽 | 1x HK | mksshare
 - name: 🇹🇼台湾
   type: fallback
   url: https://cp.cloudflare.com/generate_204
@@ -1304,8 +1121,6 @@ proxy-groups:
   - 🇹🇼台湾 102 | 1x TW | abshare3
   - 🇹🇼台湾 101 | 1x TW | tolinkshare2
   - 🇹🇼台湾 102 | 1x TW | tolinkshare2
-  - 🇹🇼台湾 101 | 1x TW | mksshare
-  - 🇹🇼台湾 102 | 1x TW | mksshare
 - name: 🇯🇵日本
   type: fallback
   url: https://cp.cloudflare.com/generate_204
@@ -1321,8 +1136,6 @@ proxy-groups:
   - 🇯🇵日本 103 | 1x JP | abshare3
   - 🇯🇵日本 101 | 1x JP | tolinkshare2
   - 🇯🇵日本 103 | 1x JP | tolinkshare2
-  - 🇯🇵日本 101 | 1x JP | mksshare
-  - 🇯🇵日本 103 | 1x JP | mksshare
 - name: 🇸🇬新加坡
   type: fallback
   url: https://cp.cloudflare.com/generate_204
@@ -1343,9 +1156,6 @@ proxy-groups:
   - 🇸🇬新加坡 101 | 1x SG | tolinkshare2
   - 🇸🇬新加坡 102 | 1x SG | tolinkshare2
   - 🇸🇬新加坡 103 | 1x SG | tolinkshare2
-  - 🇸🇬新加坡 101 | 1x SG | mksshare
-  - 🇸🇬新加坡 102 | 1x SG | mksshare
-  - 🇸🇬新加坡 103 | 1x SG | mksshare
 - name: 🇺🇸美国
   type: fallback
   url: https://cp.cloudflare.com/generate_204
@@ -1361,8 +1171,6 @@ proxy-groups:
   - 🇺🇸美国 103 ChatGPT专用 | 1x US | abshare3
   - 🇺🇸美国 101 ChatGPT专用 | 1x US | tolinkshare2
   - 🇺🇸美国 103 ChatGPT专用 | 1x US | tolinkshare2
-  - 🇺🇸美国 101 ChatGPT专用 | 1x US | mksshare
-  - 🇺🇸美国 103 ChatGPT专用 | 1x US | mksshare
 rule-providers:
   adblock:
     type: http
