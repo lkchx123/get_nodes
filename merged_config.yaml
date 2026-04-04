@@ -1,4 +1,4 @@
-# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟴:𝟱𝟴:𝟭𝟰
+# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟵:𝟭𝟯:𝟭𝟱
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟴:𝟱𝟴:𝟭𝟰
+- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟵:𝟭𝟯:𝟭𝟱
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -143,6 +143,174 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- name: 🇭🇰香港 101 | 1x HK | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30101
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: itunes.apple.com
+  reality-opts:
+    public-key: egnl0iFXY3IZYfvHwoNd72sCaULkoFRoL78wQiFwcDU
+    short-id: 176d4445
+- name: 🇭🇰香港 102 | 1x HK | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30102
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: www.amd.com
+  reality-opts:
+    public-key: W4NAOZLWDoh0h_firJoGZkvCIThYtXfAhnOPiW1OCRQ
+    short-id: 11685da6
+- name: 🇭🇰香港 103 | 家宽 | 1x HK | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30103
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: learn.microsoft.com
+  reality-opts:
+    public-key: 8M0-R5F627Hnwb-hiS0VMSm-q3NPmriztJSU9FfvTB4
+    short-id: 435e2af5
+- name: 🇹🇼台湾 101 | 1x TW | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30201
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: lol.secure.dyn.riotcdn.net
+  reality-opts:
+    public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ
+    short-id: c1e12817
+- name: 🇹🇼台湾 102 | 1x TW | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30202
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: www.samsung.com
+  reality-opts:
+    public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U
+    short-id: 10fa499e
+- name: 🇯🇵日本 101 | 1x JP | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30301
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: lol.secure.dyn.riotcdn.net
+  reality-opts:
+    public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM
+    short-id: 950cee8a
+- name: 🇯🇵日本 103 | 1x JP | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30303
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: mensura.cdn-apple.com
+  reality-opts:
+    public-key: RuNAMARjcI4VNAkqWazbFm4sa3Kc-uViiruuByx2TiM
+    short-id: 4d77021d
+- name: 🇸🇬新加坡 101 | 1x SG | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30401
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: learn.microsoft.com
+  reality-opts:
+    public-key: ZeXA8rcM3TV466jK83J157gY7U2JTI9KP9nmn_Nbawk
+    short-id: 105a652c
+- name: 🇸🇬新加坡 102 | 1x SG | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30402
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: itunes.apple.com
+  reality-opts:
+    public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew
+    short-id: f5f6e6f4
+- name: 🇸🇬新加坡 103 | 1x SG | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30403
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: www.samsung.com
+  reality-opts:
+    public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo
+    short-id: 1b3f5a2e
+- name: 🇺🇸美国 101 ChatGPT专用 | 1x US | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30701
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: www.amd.com
+  reality-opts:
+    public-key: cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY
+    short-id: e62db878
+- name: 🇺🇸美国 103 ChatGPT专用 | 1x US | abshare
+  type: vless
+  server: freea.glyphara.com
+  port: 30703
+  uuid: 497be327-81bb-4cfa-8781-ab2bb31ac34b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  servername: mensura.cdn-apple.com
+  reality-opts:
+    public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
+    short-id: 845532fa
 - name: 🇭🇰香港 101 | 1x HK | mkshare3
   type: vless
   server: freea.glyphara.com
@@ -819,7 +987,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30101
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -833,7 +1001,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30102
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -847,7 +1015,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30103
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -861,7 +1029,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30201
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -875,7 +1043,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30202
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -889,7 +1057,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30301
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -903,7 +1071,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30303
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -917,7 +1085,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30401
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -931,7 +1099,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30402
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -945,7 +1113,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30403
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -959,7 +1127,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30701
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -973,7 +1141,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 30703
-  uuid: 58234cf9-ff15-4415-bd6e-f7518525978b
+  uuid: bee89aea-280a-43b0-b89b-9fd20e04f0a5
   udp: true
   tls: true
   skip-cert-verify: true
@@ -992,11 +1160,23 @@ proxy-groups:
   - 故障转移
   - 地区选择
   - DIRECT
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟴:𝟱𝟴:𝟭𝟰
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟵:𝟭𝟯:𝟭𝟱
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟴:𝟱𝟴:𝟭𝟰
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟰-𝟬𝟰 𝟭𝟵:𝟭𝟯:𝟭𝟱
+  - 🇭🇰香港 101 | 1x HK | abshare
+  - 🇭🇰香港 102 | 1x HK | abshare
+  - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
+  - 🇹🇼台湾 101 | 1x TW | abshare
+  - 🇹🇼台湾 102 | 1x TW | abshare
+  - 🇯🇵日本 101 | 1x JP | abshare
+  - 🇯🇵日本 103 | 1x JP | abshare
+  - 🇸🇬新加坡 101 | 1x SG | abshare
+  - 🇸🇬新加坡 102 | 1x SG | abshare
+  - 🇸🇬新加坡 103 | 1x SG | abshare
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | abshare
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | abshare
   - 🇭🇰香港 101 | 1x HK | mkshare3
   - 🇭🇰香港 102 | 1x HK | mkshare3
   - 🇭🇰香港 103 | 家宽 | 1x HK | mkshare3
@@ -1091,6 +1271,9 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   interval: 30
   proxies:
+  - 🇭🇰香港 101 | 1x HK | abshare
+  - 🇭🇰香港 102 | 1x HK | abshare
+  - 🇭🇰香港 103 | 家宽 | 1x HK | abshare
   - 🇭🇰香港 101 | 1x HK | mkshare3
   - 🇭🇰香港 102 | 1x HK | mkshare3
   - 🇭🇰香港 103 | 家宽 | 1x HK | mkshare3
@@ -1111,6 +1294,8 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   interval: 30
   proxies:
+  - 🇹🇼台湾 101 | 1x TW | abshare
+  - 🇹🇼台湾 102 | 1x TW | abshare
   - 🇹🇼台湾 101 | 1x TW | mkshare3
   - 🇹🇼台湾 102 | 1x TW | mkshare3
   - 🇹🇼台湾 101 | 1x TW | toshare5
@@ -1126,6 +1311,8 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   interval: 30
   proxies:
+  - 🇯🇵日本 101 | 1x JP | abshare
+  - 🇯🇵日本 103 | 1x JP | abshare
   - 🇯🇵日本 101 | 1x JP | mkshare3
   - 🇯🇵日本 103 | 1x JP | mkshare3
   - 🇯🇵日本 101 | 1x JP | toshare5
@@ -1141,6 +1328,9 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   interval: 30
   proxies:
+  - 🇸🇬新加坡 101 | 1x SG | abshare
+  - 🇸🇬新加坡 102 | 1x SG | abshare
+  - 🇸🇬新加坡 103 | 1x SG | abshare
   - 🇸🇬新加坡 101 | 1x SG | mkshare3
   - 🇸🇬新加坡 102 | 1x SG | mkshare3
   - 🇸🇬新加坡 103 | 1x SG | mkshare3
@@ -1161,6 +1351,8 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   interval: 30
   proxies:
+  - 🇺🇸美国 101 ChatGPT专用 | 1x US | abshare
+  - 🇺🇸美国 103 ChatGPT专用 | 1x US | abshare
   - 🇺🇸美国 101 ChatGPT专用 | 1x US | mkshare3
   - 🇺🇸美国 103 ChatGPT专用 | 1x US | mkshare3
   - 🇺🇸美国 101 ChatGPT专用 | 1x US | toshare5
