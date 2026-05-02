@@ -1,4 +1,4 @@
-# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟮𝟴:𝟭𝟵
+# ⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟰𝟯:𝟭𝟰
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟮𝟴:𝟭𝟵
+- name: ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟰𝟯:𝟭𝟰
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -152,11 +152,11 @@ proxy-groups:
   - 故障转移
   - 地区选择
   - DIRECT
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟮𝟴:𝟭𝟵
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟰𝟯:𝟭𝟰
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟮𝟴:𝟭𝟵
+  - ⏰⏰⏰配置合并于 𝟮𝟬𝟮𝟲-𝟬𝟱-𝟬𝟮 𝟮𝟯:𝟰𝟯:𝟭𝟰
 - name: 负载均衡
   type: load-balance
   url: https://cp.cloudflare.com/generate_204
